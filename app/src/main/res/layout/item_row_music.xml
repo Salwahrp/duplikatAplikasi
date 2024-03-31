@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/grey"
+    app:cardCornerRadius="23dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="13dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/iAlbum"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="Foto Album"
+            app:srcCompat="@drawable/ic_fiera"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/tAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="Celengan Rindu"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iClose"
+            android:layout_width="3dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="Menuju ke DeskripActivity"
+            android:focusable="true"
+            app:srcCompat="@drawable/ic_close"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

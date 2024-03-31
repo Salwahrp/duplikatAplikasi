@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Duplikat Aplikasi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="family_music_photo">
+        <item>@drawable/ic_fiera</item>
+        <item>@drawable/ic_interaksi</item>
+        <item>@drawable/ic_hahaha</item>
+        <item>@drawable/ic_backto</item>
+        <item>@drawable/ic_januari</item>
+        <item>@drawable/ic_ego</item>
+        <item>@drawable/ic_virzha</item>
+        <item>@drawable/ic_tulus</item>
+    </string-array>
+
+    <string-array name="music_name">
+        <item>Celengan Rindu (Fiera Besari)</item>
+        <item>Interaksi (Tulus)</item>
+        <item>HAHAHA (Juicy Luicy)</item>
+        <item>Back To December (Taylor Swift)</item>
+        <item>Januari (Glenn Fredly)</item>
+        <item>Ego (Lyodra)</item>
+        <item>Aku Lelakimu (Virzha)</item>
+        <item>Monokrom (Tulus)</item>
+    </string-array>
+</resources>

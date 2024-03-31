@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/tvFragmentHomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Halaman Utama"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvFragmentHomeMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="Mix teratasmu"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFragmentHomeTitle" />
+
+    <ImageView
+        android:id="@+id/imageAlbum1"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_taylor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFragmentHomeMessage" />
+
+    <ImageView
+        android:id="@+id/imageAlbum2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_tulus"
+        app:layout_constraintStart_toEndOf="@+id/imageAlbum1"
+        app:layout_constraintTop_toBottomOf="@+id/tvFragmentHomeMessage" />
+
+    <ImageView
+        android:id="@+id/imageAlbum3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_fiera"
+        app:layout_constraintStart_toEndOf="@+id/imageAlbum2"
+        app:layout_constraintTop_toBottomOf="@+id/tvFragmentHomeMessage" />
+
+    <TextView
+        android:id="@+id/textAlbum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="Taylor Swift, Adela, Hivi!\n Ed Sheeran"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAlbum1" />
+
+    <TextView
+        android:id="@+id/textAlbum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="4dp"
+        android:text="Tulus, Marcell, dan Afgan"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textAlbum1"
+        app:layout_constraintTop_toBottomOf="@+id/imageAlbum2" />
+
+    <TextView
+        android:id="@+id/textAlbum3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="4dp"
+        android:text="Fiera Besari, Marcello \nTahitoe, dan Glen Fredly"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textAlbum2"
+        app:layout_constraintTop_toBottomOf="@+id/imageAlbum3" />
+
+    <ImageView
+        android:id="@+id/imageAlbum4"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/ic_fiera"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textAlbum1" />
+
+    <ImageView
+        android:id="@+id/imageAlbum5"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="84dp"
+        android:src="@drawable/ic_tulus"
+        app:layout_constraintStart_toEndOf="@+id/imageAlbum4"
+        app:layout_constraintTop_toBottomOf="@+id/textAlbum2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/ic_taylor"
+        app:layout_constraintStart_toEndOf="@+id/imageAlbum5"
+        app:layout_constraintTop_toBottomOf="@+id/textAlbum3" />
+
+    <TextView
+        android:id="@+id/textAlbum4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="8dp"
+        android:text="Taylor Swift, Adela, Hivi!\n Ed Sheeran"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textAlbum5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textAlbum5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="8dp"
+        android:text="Tulus, Marcell, dan Afgan"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textAlbum6"
+        app:layout_constraintTop_toBottomOf="@+id/imageAlbum5" />
+
+    <TextView
+        android:id="@+id/textAlbum6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Fiera Besari, Marcello \nTahitoe, dan Glen Fredly"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAlbum4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
